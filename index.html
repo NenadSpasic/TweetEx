@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--website is optimized for mobile-->
+    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+    <title>TweetEx</title>
+</head>
+<body>
+    <div id="content" class="card-panel z-depth-3 blue lighten-5 border">
+        <div class="container">
+            <h1 class="card-panel blue blue-text text-lighten-3 border z-depth-2">TweetEX</h1>
+            <div class="row">
+                <div class="col s12 m6">
+                    <label for="tweet" class="blue-text text-darken-2 tweet">Tweet:</label>
+                    <form action="#" id="form">
+                            <label for="tweet"></label>
+                            <textarea id="tweet" class="grey lighten-5 z-depth-1"></textarea>
+                             <button class="btn blue waves-effect waves-light blue-text  text-lighten-5" type="submit" name="action">Save Tweet
+                             <i class="material-icons right">create</i>
+                             </button>
+                    </form>
+                </div> 
+                <div class="col s12 m6 card hoverable border">
+                    <h4 class="center-align blue-text text-darken-2">My Tweets</h4>
+                    <div id="tweet-list"></div>
+                </div> 
+            </div>
+        </div>
+    </div> 
+    <div class="footer-copyright">
+        <div class="container">
+            © 2018 Copyright Nenad Spasic
+        </div>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
